@@ -1,0 +1,22 @@
+.rights Nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+        a{
+          text-decoration: none;
+          padding: 5px;
+          color: #0089ff;
+        }
+      }
+    i{
+      color: #0089ff;
+      padding: 5px;
+    }
+}

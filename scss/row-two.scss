@@ -1,0 +1,27 @@
+.two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .updatedimg{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/bg-showcase-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    .txt{
+      padding: 10px;
+    }
+    p{
+      color:$p-color;
+    }
+    }
+  }

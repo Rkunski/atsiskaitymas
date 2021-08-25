@@ -1,0 +1,31 @@
+.bottomsignup{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  line-height: 1.8;
+  background-image:url(images/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+
+  .bottomup{
+    display: flex;
+    input{
+      width: 100%;
+      border-radius: 5px;
+      margin: 3px;
+    }
+    .bottombutton{
+      text-align: center;
+      background: #0089ff;
+      width: 100px;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 3px;
+    }
+  }
+}
